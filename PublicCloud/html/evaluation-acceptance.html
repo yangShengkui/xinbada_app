@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link href="../css/mui.min.css" rel="stylesheet" />
+		<link href="../css/appicon.css" rel="stylesheet" />
+		<link id="skin-id-css" rel="stylesheet">
+		<style>
+			p {
+				margin: 0 20px;
+			}
+			
+			.mui-scroll {
+				padding: 15px 0 20px 0;
+			}
+			
+			.mark {
+				font-size: 16px;
+				color: #0099FF;
+			}
+			
+			.warning-exclam-mark {
+				color: white;
+				font-size: 22px;
+				font-weight: bold;
+				width: 15px;
+				height: 15px;
+				line-height: 40px;
+				border-radius: 20px;
+				text-align: center;
+				vertical-align: middle;
+				margin-top: -3px;
+			}
+			
+			.warning-msg {
+				width: 78%;
+				color: #000;
+				overflow: hidden;
+				text-overflow: ellipsis;
+				white-space: nowrap;
+				display: inline-block;
+				vertical-align: middle;
+				padding: 5px 0;
+				margin-left: 5px;
+				font-size: 14px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav header-bg clear-shadow">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left header-nav-color"></a>
+			<!--这儿要获取到title的具体值-->
+			<h1 id="title" class="mui-title header-font-color">评价验收</h1>
+		</header>
+		<div id="pullrefresh" class="mui-content mui-scroll-wrapper mui-scroll-content">
+			<div class="mui-scroll mui-table-view" style="margin:0;">
+
+			</div>
+		</div>
+
+		<script src="../js/mui.min.js"></script>
+		<script src="../js/common.js"></script>
+		<script src="../js/app.future.js"></script>
+		<script src="../js/app.storage.js"></script>
+		<script src="../js/app.dispatcher.js"></script>
+		<script src="../js/skin/skin-impl.js"></script>
+		<script src="../libs/moment/moment.js"></script>
+		<script src="../js/lines/evaluation-acceptance.js"></script>
+	</body>
+
+</html>

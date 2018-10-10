@@ -1,0 +1,33 @@
+.time{
+	display:inline-block;
+	vertical-align: middle;
+}
+
+.icon-icon-life-alarm,.mui-icon-compose{
+	padding:5px;
+	font-size:20px;
+	color:#fff;
+	border-radius:50%;
+	background-color:#0099FF;
+}
+.mui-icon-compose{
+	padding:7px;
+}
+.icon-xinxinicon{
+	padding:8px 0;
+	font-size:19px;
+	color:#fff;
+	width:20px;
+	border-radius:50%;
+	background-color:#0099FF;
+}
+.line-progress{
+	margin-left:48px;
+	border-left:5px solid #797979;
+	padding-left:30px;
+}
+.handler{
+	margin-right:30px;
+	text-align: left;
+}
+

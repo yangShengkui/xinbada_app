@@ -1,0 +1,78 @@
+.header-font-color {
+    color: white;
+}
+
+.header-nav-color {
+    color: white;
+}
+
+.header-bg {
+    background-color: #3F4E63;
+}
+
+.main-color {
+    color: #3F4E63;
+}
+
+.main-bg-color {
+    background-color: #3F4E63;
+}
+
+.mui-bar-tab .mui-tab-item {
+    background: white;
+}
+
+.mui-bar-tab .mui-tab-item.mui-active {
+    color: #3F4E63;
+}
+
+/*告警页的皮肤*/
+.mui-slider-indicator.mui-segmented-control {
+    background-color: #3F4E63;
+}
+
+.mui-segmented-control.mui-segmented-control-inverted .mui-control-item.mui-active {
+    color: white;
+}
+
+.mui-segmented-control.mui-segmented-control-inverted .mui-control-item {
+    color: #A0A0A0;
+}
+
+.mui-slider-progress-bar {
+    /*background-color: white;*/
+}
+
+.slider-progressB-bar {
+    background-color: #3F4E63
+}
+
+.mui-btn-block{
+	border: 0;
+	color: white;
+	background-color: #3F4E63
+}
+
+/*首页tab按钮颜色*/
+.mui-segmented-control .mui-control-item {
+color: #3F4E63;
+border-color: #3F4E63;
+border-left: 1px solid #3F4E63;
+}
+
+.mui-segmented-control .mui-control-item.mui-active {
+   color: #fff;
+   background-color: #3F4E63;
+ }
+
+.mui-segmented-control {
+  border: 1px solid #3F4E63;
+}
+
+#cd-timeline::before {
+    background-color: #3F4E63;
+}
+
+#warning-category-head-active {
+  color: #3F4E63;
+}

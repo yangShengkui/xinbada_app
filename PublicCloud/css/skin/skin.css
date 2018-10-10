@@ -1,0 +1,71 @@
+.mui-card {
+    margin: 0;
+}
+
+.mui-content > .mui-card:first-child {
+    margin-top: 0;
+}
+
+.skin-style {
+    position: absolute;
+    top: 9px;
+    left: 80px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 0;
+    outline: 0 !important;
+    -webkit-appearance: none;
+}
+
+.skin-style-red {
+    background-color: #D9544F;
+}
+
+.skin-style-blue {
+    background-color: #24BCE7;
+}
+
+.skin-style-green {
+    background-color: #16A086;
+}
+
+.skin-style-dullgrey {
+    background-color: #3F4E63;
+}
+
+.skin-red-item input[type=radio]:before {
+    color: #D9544F;
+}
+
+.skin-red-item input[type=radio]:checked:before {
+    color: #D9544F;
+}
+
+.skin-blue-item input[type=radio]:before {
+    color: #24BCE7;
+}
+
+.skin-blue-item input[type=radio]:checked:before {
+    color: #24BCE7;
+}
+
+.skin-green-item input[type=radio]:before {
+    color: #16A086;
+}
+
+.skin-green-item input[type=radio]:checked:before {
+    color: #16A086;
+}
+
+.skin-dullgrey-item input[type=radio]:before {
+    color: #24BCE7;
+}
+
+.skin-dullgrey-item input[type=radio]:checked:before {
+    color: #24BCE7;
+}
+
+.skin-radio {
+
+}

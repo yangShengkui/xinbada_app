@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link href="../css/mui.min.css" rel="stylesheet" />
+		<link href="../css/appicon.css" rel="stylesheet" />
+		<link href="../css/fonts/iconfont.css" rel="stylesheet" />
+		<link href="../css/characteristic-trend/characteristic-trend-main-util.css" rel="stylesheet" />
+		<link id="skin-id-css" rel="stylesheet">
+		<style>
+			.chart-sel {
+				position: relative;
+			}
+			
+			.selCode {
+				/*background-color: #398EBD;*/
+				color: #fff;
+				border-top-left-radius: 5px;
+				border-bottom-left-radius: 5px;
+				width: 100%;
+				/*height:30px;*/
+				margin-left: 10px;
+				margin-top: 10px;
+				padding: 7px 2px;
+				text-align: left;
+				font-size: 12px;
+			}
+			
+			.mui-icon-arrowdown {
+				/*background-color: #398EBD;*/
+				color: #fff;
+				position: absolute;
+				left: 180px;
+				top: 12px;
+			}
+			
+			.trnd {
+				margin-left: 10px;
+				padding-top: 5px;
+			}
+			
+			p {
+				word-break: break-all;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div id="pullrefresh" class="mui-content mui-scroll-wrapper">
+			<div class="mui-scroll">
+				<ul class="mui-table-view">
+					<!--<div class="chart-sel">
+						<select class="mui-icon selCode" id="point-select" style="width: 140px;">
+						</select>
+						<span class="mui-icon mui-icon mui-icon-arrowdown"></span>
+					</div>
+					<div class="tredency_chart" id="lineChart" style="height:200px;">
+
+					</div>-->
+				</ul>
+			</div>
+		</div>
+		<script src="../libs/echarts/dist/echarts.min.js"></script>
+		<script src="../js/mui.min.js"></script>
+		<script src="../js/webviewGroup.js"></script>
+		<!--<script src="../js/mui.pullToRefresh.js"></script>
+    <script src="../js/mui.pullToRefresh.material.js"></script>-->
+		<script src="../js/common.js"></script>
+		<script src="../js/app.future.js"></script>
+		<script src="../js/app.storage.js"></script>
+		<script src="../js/app.dispatcher.js"></script>
+		<script src="../libs/moment/moment.js"></script>
+		<script src="../js/characteristic-trend/characteristic-trend-main-util.js"></script>
+		<script src="../js/characteristic-trend/characteristic-trend-main-list.js"></script>
+		<script src="../js/skin/skin-impl.js"></script>
+		<!--<script>
+			var myChart = echarts.init(document.getElementById('lineChart'));
+			var date = ['2017-01-02 12：32：21', '2017-01-02 12：33：22', '2017-01-02 12：34：24', '2017-01-02 12：32：25', '2017-01-02 12：32：25', '2017-01-02 12：32：25', '2017-01-02 12：32：25'];
+			var legend = ["冲击峰值", "冲击平均值", "速度峰值", "速度有效值"];
+			var arr = [[1,2,3,4,5,6,7],[1,2,3,4,5,6,7],[1,2,3,4,5,6,7],[1,2,3,4,5,6,7],[1,2,3,4,5,6,7],[1,2,3,4,5,6,7],[1,2,3,4,5,6,7]];
+			var seriesInfo = [];
+			for(var j = 0; j < legend.length; j++) {
+//				for(var i = 0; i < arr.length; i++) {
+					var obj = {
+						"name": legend[j],
+						"type": 'line',
+						"stack": '总量',
+						"val": arr[j]
+					}
+					seriesInfo.push(obj)
+//				}
+			}
+			console.log('jfjf'+JSON.stringify(seriesInfo))
+			var option = {
+				tooltip: {
+					trigger: 'axis'
+				},
+				legend: {
+					data: legend
+				},
+				toolbox: {
+					show: true,
+				},
+				calculable: true,
+				xAxis: [{
+					type: 'category',
+					boundaryGap: false,
+					data: date
+				}],
+				yAxis: [{
+					type: 'value'
+				}],
+				series:seriesInfo
+			};
+			myChart.setOption(option);
+		</script>-->
+	</body>
+
+</html>

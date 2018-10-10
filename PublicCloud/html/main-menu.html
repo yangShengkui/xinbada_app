@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+    <title></title>
+    <link rel="stylesheet" href="../css/mui.min.css">
+    <link rel="stylesheet" href="../css/main/menu.css">
+    <link rel="stylesheet" href="../css/appbase.css">
+    <link id="skin-id-css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="mui-content">
+      <div class="menu-head-layout main-bg-color">
+        <div class="menu-head">
+          <div class="mui-pull-left menu-head-img-layout">
+            <img class="menu-head-img" src="../images/custom/default-avatar.png" />
+          </div>
+          <div class="menu-head-content-layout-wrapper">
+            <div class="menu-head-content-layout">
+              <div class="menu-head-content">
+                <div id='head-staff' class="text-wrap-dot">显示名称</div>
+                <div class="text-wrap-dot" style="font-size: 12px;">账号: <span id='head-account'>账号信息</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <ul class="mui-table-view mui-table-view-chevron mui-table-view-inverted">
+        <li class="mui-table-view-cell">
+          <a href="message-notice.html" open-type="common" class="mui-navigate-right">
+            <div class="mui-pull-left">
+              <img class="menu-action-icon" src="../images/menu/ic_action_message.png" />
+            </div>
+            <span class="menu-action-title">新消息通知</span>
+            <span id="least-message-count" class="mui-badge mui-badge-danger" style="visibility: hidden;">45</span>
+          </a>
+        </li>
+        <li class="mui-table-view-cell">
+          <a href="skin-color-style.html" open-type="common" class="mui-navigate-right">
+            <div class="mui-pull-left">
+              <img class="menu-action-icon" src="../images/menu/ic_action_theme.png" />
+            </div>
+            <span class="menu-action-title">切换皮肤</span>
+          </a>
+        </li>
+        <li class="mui-table-view-cell">
+          <a href="help-feedback.html" open-type="common" class="mui-navigate-right">
+            <div class="mui-pull-left">
+              <img class="menu-action-icon" src="../images/menu/ic_action_feedback.png" />
+            </div>
+            <span class="menu-action-title">帮助与反馈</span>
+          </a>
+        </li>
+        <li class="mui-table-view-cell">
+          <a class="mui-navigate-right">
+            <div class="mui-pull-left">
+              <img class="menu-action-icon" src="../images/menu/ic_action_about.png" />
+            </div>
+            <span class="menu-action-title">版本号</span>
+						<span class="mui-pull-right update">V1.0.1</span>
+          </a>
+        </li>
+        <li class="mui-table-view-cell">
+					<a href="#" open-type="checknew">
+						<div class="mui-pull-left">
+							<img class="menu-action-icon" src="../images/menu/ic_action_message.png" />
+						</div>
+						<span class="menu-action-title">检查更新</span>
+						<!--<i class="mui-pull-right update">V1.0.5</i>-->
+					</a>
+				</li>
+      </ul>
+      <ul class="mui-table-view mui-table-view-chevron mui-table-view-inverted" style="color: #ddd;">
+        <li class="mui-table-view-cell">
+          <a href="#" open-type="loginout">
+            <div class="mui-pull-left">
+              <img class="menu-action-icon" src="../images/menu/ic_action_logoff.png" />
+            </div>
+            <span class="menu-action-title">退出登录</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <script src="../js/mui.min.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="../js/app.storage.js"></script>
+    <script src="../js/app.future.js"></script>
+    <script src="../js/app.dispatcher.js"></script>
+    <script src="../js/main/menu.js"></script>
+    <script src="../js/skin/skin-impl.js"></script>
+  </body>
+
+</html>

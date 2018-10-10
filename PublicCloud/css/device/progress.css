@@ -1,0 +1,44 @@
+.time{
+	display:inline-block;
+	vertical-align: middle;
+}
+
+.mui-icon-person{
+	font-size:30px;
+	color:#fff;
+	border-radius:50%;
+	background-color:#0099FF;
+}
+.mui-icon-info{
+	font-size:25px;
+	padding:2px;
+	color:#fff;
+	border-radius:50%;
+	background-color:#00B9B2;
+}
+.mui-pull-right{
+	padding-top:10px;
+}
+.origin-state{
+	color:#0099FF;
+	font-size:12px;
+}
+ul li:first-child .origin-state{
+	color:orange;
+}
+ul li:first-child .first-state{
+	background-color:orange;
+}
+.line-progress{
+	margin-left:48px;
+	border-left:5px solid #797979;
+	padding-left:30px;
+}
+.handler{
+	margin-right:30px;
+	text-align: left;
+}
+p{
+	width:100%;
+	word-break:break-all;
+}

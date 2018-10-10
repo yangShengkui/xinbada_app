@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <link href="../css/mui.min.css" rel="stylesheet" />
+    <link href="../css/appicon.css" rel="stylesheet" />
+    <link href="../css/appbase.css" rel="stylesheet">
+    <link id="skin-id-css" rel="stylesheet">
+  </head>
+
+  <body>
+  	<header class="mui-bar mui-bar-nav header-bg clear-shadow">
+      <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left header-nav-color"></a>
+      <!--这儿要获取到title的具体值-->
+      <h1 id="title" class="mui-title header-font-color">报警数量</h1>
+    </header>
+    <div id="pullrefresh" class="mui-content mui-scroll-wrapper">
+      <div class="mui-scroll" style="margin-top:10px">
+      	<text>宝山基地</text>
+        <div class="tredency_chart" id="barChart" style="height:400px">
+        		
+        </div>
+      </div>
+    </div>
+<script src="../libs/echarts/dist/echarts.min.js"></script>
+    <script src="../js/mui.min.js"></script>
+    <script src="../js/mui.pullToRefresh.js"></script>
+    <script src="../js/mui.pullToRefresh.material.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="../js/app.future.js"></script>
+    <script src="../js/app.storage.js"></script>
+    <script src="../js/app.dispatcher.js"></script>
+    <script src="../js/quota/quota-detail.js"></script>
+    <script src="../js/skin/skin-impl.js"></script>
+  </body>
+
+</html>

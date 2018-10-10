@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <link href="../css/mui.min.css" rel="stylesheet" />
+    <link href="../css/appicon.css" rel="stylesheet" />
+    <link href="../css/home/home.css" rel="stylesheet" />
+    <link id="skin-id-css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div id="pullrefresh" class="mui-content mui-scroll-wrapper mui-scroll-content" style="background-color:#fff;">
+      <div class="mui-scroll">
+        <div class="warning-content-layout">
+          <div class="warning-content warning-content-title-color">
+            <div class="mui-pull-left">
+              <div>处理中</div>
+              <div id="warning-processing-count" class="warning-content-count">0</div>
+            </div>
+            <div class="mui-pull-right">
+              <div>已处理</div>
+              <div id="warning-processed-count" class="warning-content-count">0</div>
+            </div>
+            <div class="warning-content-center">
+              <div style="margin: auto 0px; width: 100%;">
+                <div class="warning-content-center-title">日新增告警数</div>
+                <div id="warning-new-bydaily-count" class="warning-content-center-count">0</div>
+                <div class="warning-content-center-line"></div>
+                <div id="warning-unprocessed-count" class="warning-content-center-count">0</div>
+                <div class="warning-content-center-title">待处理告警数</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="dvcodr-content-layout">
+          <div class="dvcodr-content">
+            <div class="dvcodr-content-title">设备服务</div>
+            <div>
+              <div class="mui-pull-left mui-col-xs-4">
+                <div id="device-total-count" class="dvcodr-content-count-value">0</div>
+                <div class="dvcodr-content-count-label">设备总数</div>
+              </div>
+              <div class="mui-pull-left mui-col-xs-4 customer-head-count-div">
+                <div id="device-online-count" class="dvcodr-content-count-value">0</div>
+                <div class="dvcodr-content-count-label">在线设备</div>
+              </div>
+              <div class="mui-pull-left mui-col-xs-4">
+                <div id="device-new-bymonth-count" class="dvcodr-content-count-value">0</div>
+                <div class="dvcodr-content-count-label">月增设备</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="dvcodr-content-layout">
+          <div class="dvcodr-content">
+            <div class="dvcodr-content-title order-content-title">维修工单</div>
+            <div>
+              <div class="mui-pull-left mui-col-xs-4">
+                <div id="order-total-count" class="dvcodr-content-count-value order-content-count-value">0</div>
+                <div class="dvcodr-content-count-label order-content-count-label">工单总数</div>
+              </div>
+              <div class="mui-pull-left mui-col-xs-4 customer-head-count-div">
+                <div id="order-unprocessed-count" class="dvcodr-content-count-value order-content-count-value">0</div>
+                <div class="dvcodr-content-count-label order-content-count-label">待处理工单</div>
+              </div>
+              <div class="mui-pull-left mui-col-xs-4">
+                <div id="customer-total-count" class="dvcodr-content-count-value order-content-count-value">0</div>
+                <div class="dvcodr-content-count-label order-content-count-label">客户总数</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--<div class="dvcodr-content-layout">
+          <div class="column3-layout-left">
+            <div class="column3-layout-inner">
+              <div class="customer-satisfaction-ratio-container">
+                <div class="mui-pull-right">89%</div>
+                <div class="customer-satisfaction-ratio" style="background-color: #3fdfbb; width: 89%; margin-left: 11%;"></div>
+              </div>
+              <div style="clear: both"></div>
+              <div class="customer-satisfaction-label">很满意</div>
+              <div class="customer-satisfaction-ratio-container">
+                <div class="mui-pull-right" style="color: black;">5%</div>
+                <div class="customer-satisfaction-ratio" style="background-color: #ef6095; width: 5%; margin-left: 95%;"></div>
+              </div>
+              <div style="clear: both"></div>
+              <div class="customer-satisfaction-label">满意</div>
+            </div>
+          </div>
+          <div class="column3-layout-center">
+            <div class="column3-layout-inner" style="display: flex;">
+              <div style="margin: auto 0px; width: 100%;">
+                <div>客户</div>
+                <div>满意度</div>
+              </div>
+            </div>
+          </div>
+          <div class="column3-layout-right">
+            <div class="column3-layout-inner">
+              <div class="customer-satisfaction-ratio-container">
+                <div class="mui-pull-left" style="color: black;">5%</div>
+                <div class="customer-satisfaction-ratio" style="background-color: #51cff8; width: 5%;"></div>
+              </div>
+              <div style="clear: both"></div>
+              <div class="customer-satisfaction-label">一般</div>
+              <div class="customer-satisfaction-ratio-container">
+                <div class="mui-pull-left" style="color: black;">1%</div>
+                <div class="customer-satisfaction-ratio" style="background-color: #f58077; width: 1%;"></div>
+              </div>
+              <div style="clear: both"></div>
+              <div class="customer-satisfaction-label">不满意</div>
+            </div>
+          </div>
+        </div>-->
+      </div>
+    </div>
+
+    <script src="../js/mui.min.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="../js/app.future.js"></script>
+    <script src="../js/app.storage.js"></script>
+    <script src="../js/app.dispatcher.js"></script>
+    <script src="../js/skin/skin-impl.js"></script>
+    <script src="../js/home/home.js"></script>
+  </body>
+
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+    <title></title>
+    <link href="../css/mui.min.css" rel="stylesheet">
+    <link href="../css/appicon.css" rel="stylesheet" />
+    <link href="../css/systemicon.css" rel="stylesheet" />
+    <link href="../css/appbase.css" rel="stylesheet">
+    <link href="../css/warning/warning.css" rel="stylesheet">
+    <link id="skin-id-css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="mui-content">
+
+      <div id="slider" class="mui-slider mui-fullscreen" style="height:145px;">
+        <div id="sliderSegmentedControl" class="mui-slider-indicator mui-scroll-wrapper mui-slider-indicator mui-segmented-control mui-segmented-control-inverted" style="width: 100%; height:145px; background-color: white;">
+          <div class="main-bg-color" style="padding: 0px 10px;">
+            <div class="mui-input-row mui-search" style="height: 42px;">
+              <input id="deviceSearch" type="search" class="mui-input-clear deviceSearchClear" style="background-color: white; height: 32px;" placeholder="请输入设备名称或设备编号" value=" ">
+            </div>
+          </div>
+          <!--<div class="mui-row select_box">
+            <div class="mui-col-sm-3 mui-col-xs-3">
+                <li class="mui-table-view-cell">
+                  <select style="padding:0">
+          				<option value="0">报警级别</option>
+          				<option value="1">警告</option>
+          				<option value="2">次要</option>
+          				<option value="3">重要</option>
+          				<option value="4">严重</option>
+          			</select>
+          			<span class="mui-icon mui-icon mui-icon-arrowdown"style="border:0"></span>
+                </li>
+            </div>
+             <div class="mui-col-sm-3 mui-col-xs-3">
+                <li class="mui-table-view-cell">
+                  <select style="padding:0">
+          				<option>来源</option>
+          				<option>采集系统</option>
+          				<option>智能诊断</option>
+          				<option>大数据分析</option>
+          				<option>离线诊断</option>
+          			</select>
+          			<span class="mui-icon mui-icon mui-icon-arrowdown" style="border:0"></span>
+                </li>
+            </div>
+            <div class="mui-col-sm-3 mui-col-xs-3">
+                <li class="mui-table-view-cell">
+                  <select style="padding:0">
+          				<option>设备类型</option>
+          				<option>区域1</option>
+          				<option>区域1</option>
+          			</select>
+          			<span class="mui-icon mui-icon mui-icon-arrowdown"style="border:0"></span>
+                </li>
+            </div>
+              <div class="mui-col-sm-3 mui-col-xs-3">
+                <li class="mui-table-view-cell">
+                  <select style="padding:0">
+          				<option>状态</option>
+          				<option>待诊断</option>
+          				<option>待审核</option>
+          				<option>待计划</option>
+          				<option>待实施</option>
+          				<option>待整理</option>
+          				<option>已完成</option>
+          			</select>
+          			<span class="mui-icon mui-icon mui-icon-arrowdown" style="border:0"></span>
+                </li>
+            </div>
+          </div>-->
+          <div class="mui-scroll" style="width: 100%; height:80px; position: relative;">
+            <li class="mui-control-item warning-page-head-default circle-sty1" data-wid="main-subpage-lines-list-processing.html">
+              <div class="warning_num wait_solve" style="margin-left: 6px;">0</div>
+              <div class="mui-media-body warning-page-head-title">今日任务</div>
+            </li>
+            <li class="mui-control-item warning-page-head-default circle-sty2" data-wid="main-subpage-lines-list-processed.html">
+              <div class="warning_num has_solve">0</div>
+              <div class="mui-media-body warning-page-head-title">未结束</div>
+            </li>
+          </div>
+          <div id="sliderProgressBar" class="mui-slider-progress-bar mui-col-xs-6 main-bg-color"></div>
+        </div>
+      </div>
+    </div>
+    <script src="../js/mui.js"></script>
+    <script src="../js/webviewGroup.js"></script>
+    <script src="../js/mui.pullToRefresh.js"></script>
+    <script src="../js/mui.pullToRefresh.material.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="../js/app.future.js"></script>
+    <script src="../js/app.storage.js"></script>
+    <script src="../js/app.dispatcher.js"></script>
+    <script src="../js/lines/warning.js"></script>
+    <script src="../js/skin/skin-impl.js"></script>
+  </body>
+
+</html>

@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <link href="../css/mui.min.css" rel="stylesheet" />
+    <link href="../css/appicon.css" rel="stylesheet" />
+    <link href="../css/appbase.css" rel="stylesheet">
+    <link href="../css/warning/warning-detail.css" rel="stylesheet">
+    <link href="../css/warning/warning-list.css" rel="stylesheet">
+    <link href="../css/skin/skin.css" rel="stylesheet" />
+    <link id="skin-id-css" rel="stylesheet">
+    <style>
+    	.chart-sel{
+    		position:relative;
+    	}
+    	#code-select{
+    		background-color: #FF9966;
+    		color:#fff;
+    		border-top-left-radius: 5px;
+    		border-bottom-left-radius:5px;
+    		width:60%;
+    		/*height:30px;*/
+    		margin-left:10px;
+    		padding:5px;
+    		text-align: center;
+    	}
+    	.footer-style{
+    		width:100%;
+    		border:1px solid #E4E4E4;
+    		height:60px;
+    		margin-top:20px;
+    		padding-top:10px;
+    	}
+			.footer-style button{
+				margin-right:10px;
+			}
+			.mui-icon-arrowdown{
+				background-color:#FF9966;
+				color:#fff;
+				position:absolute;
+				top:0;
+				right:0;
+			}
+			.trnd{
+				margin-left:10px;
+				padding-top:5px;
+			}
+    </style>
+  </head>
+
+  <body>
+    <header class="mui-bar mui-bar-nav header-bg clear-shadow">
+      <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left header-nav-color"></a>
+      <!--这儿要获取到title的具体值-->
+      <h1 id="title" class="mui-title header-font-color">特征趋势</h1>
+      <!--<a class="mui-icon mui-icon-compose mui-pull-right" id="edit-suggest" href="message-feedback.html" style="color:#fff"></a>-->
+    </header>
+    <div id="pullrefresh" class="mui-content mui-scroll-wrapper">
+      <div class="mui-scroll" style="margin-top:10px;" >
+      	<p class="tle1" style="margin-left:10px"></p>
+      	<p class="tle2" style="margin-left:10px"></p>
+        <div class="tredency_chart" id="lineChart" style="height:400px;">
+
+        </div>
+      </div>
+    </div>
+    <script src="../libs/echarts/dist/echarts.min.js"></script>
+    <script src="../js/mui.min.js"></script>
+    <script src="../js/mui.pullToRefresh.js"></script>
+    <script src="../js/mui.pullToRefresh.material.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="../js/app.future.js"></script>
+    <script src="../js/app.storage.js"></script>
+    <script src="../js/app.dispatcher.js"></script>
+    <script src="../libs/moment/moment.js"></script>
+    <script src="../js/device/device-detail-list-trendency.js"></script>
+    <script src="../js/skin/skin-impl.js"></script>
+  </body>
+
+</html>

@@ -1,0 +1,99 @@
+<!doctype html>
+<html ng-app="app">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <link href="../css/mui.min.css" rel="stylesheet" />
+    <link href="../css/appicon.css" rel="stylesheet"/>
+    <link href="../css/systemicon.css" rel="stylesheet"/>
+    <link href="../css/appbase.css" rel="stylesheet"/>
+    <link href="../css/main/main.css" rel="stylesheet"/>
+    <link href="../css/warning/warning-list.css" rel="stylesheet"/>
+    <link href="../css/skin/skin.css" rel="stylesheet" />
+    <link id="skin-id-css" rel="stylesheet">
+  </head>
+
+  <body>
+    <header class="mui-bar mui-bar-nav header-bg">
+      <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left header-nav-color"></a>
+      <h1 id="title" class="mui-title header-font-color">告警处理</h1>
+    </header>
+    <div class="mui-content">
+      <div class="mui-scroll-content">
+        <div class="mui-content-item">
+          <ul class="mui-table-view">
+          </ul>
+        </div>
+        <div class="warning-deal">
+          <textarea placeholder="处理意见：" style="font-size: 0.46rem;" class="dealing-opinion"></textarea>
+          <div class="mui-text-center">
+            <button id="alert-id-close-btn" class="btn btn-delete-warning">关闭告警</button>
+            <button id="alert-id-sure-btn" class="btn btn-confirm-warning">确认告警</button>
+            <button id="alert-id-order-btn" class="btn btn-change-work-order">转&nbsp;工&nbsp;单</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+<div id="popover" class="mui-popover" style="position: absolute;height:400px;top:150px;width: 80%;left: 10%;">
+  <div class="mui-scroll-wrapper">
+		<div class="mui-scroll">
+		<ul class="mui-table-view" >
+				<li class="mui-table-view-cell">
+				    <label for="">工单名称：</label>
+				    <input id="orderName" />
+				</li>
+				<li class="mui-table-view-cell">
+				    <label for="">设备名称：</label>
+				    <input id="devideName" />
+				</li>
+				<li class="mui-table-view-cell">
+				  <label for="">紧急程度：</label>
+				  <select id="emergencyDegree">
+				  		<option value="0">低</option>
+							<option value="100" selected="true">中</option>
+							<option value="200">高</option>
+				  </select>
+				    
+				</li>
+				<li class="mui-table-view-cell">
+				  <label for="">工单类型：</label>
+				  <select id="orderType">
+				  		<option value="01">---请选择---</option>
+				  		<option value="10">告警工单</option>
+							<option value="20">维修工单</option>
+							<option value="30">业务工单</option>
+							<option value="40" >维保工单</option>
+				  </select>
+				</li>
+				<li class="mui-table-view-cell">
+				  <label for="">工单流程：</label>
+				  <select id="orderFlow">
+				  </select>
+				</li>
+		</ul>
+		<div class="btn-box">
+			<button type="button" class="mui-btn" id="cansel">取消</button>
+			<button type="button" class="mui-btn" id="sure">确定</button>
+		</div>
+		
+	</div>
+	</div>
+</div>
+
+
+    
+    <script src="../js/mui.min.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="../js/app.future.js"></script>
+    <script src="../js/app.storage.js"></script>
+    <script src="../js/app.dispatcher.js"></script>
+    <script src="../libs/moment/moment.js"></script>
+    <script src="../js/warning/warning-list-util.js"></script>
+    <script src="../js/warning/warning-detail.js"></script>
+    <script src="../js/skin/skin-impl.js"></script>
+  </body>
+
+</html>

@@ -1,0 +1,122 @@
+@font-face {
+  font-family: "systemicon";
+  src: url('../fonts/systemicon.otf') format('truetype');
+  /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+}
+
+.systemicon {
+  font-family: "systemicon" !important;
+  font-size: 20px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+}
+
+.system-icon-car:before {
+  content: "\a040";
+}
+
+.system-icon-o2:before {
+  content: "\a041";
+}
+
+.system-icon-water:before {
+  content: "\a042";
+}
+
+.system-icon-heating-01:before {
+  content: "\a043";
+}
+
+.system-icon-electric:before {
+  content: "\a045";
+}
+
+.system-icon-conditioner:before {
+  content: "\a046";
+}
+
+.system-icon-water-loop:before {
+  content: "\a047";
+}
+
+.system-icon-lift:before {
+  content: "\a048";
+}
+
+.system-icon-cstm-device-count:before {
+  content: "\a059";
+}
+.system-icon-cstm-warning-count:before {
+  content: "\a060";
+}
+.system-icon-cstm-order-count:before {
+  content: "\a061";
+}
+
+.system-icon-dvc-dtl-sample-name:before {
+  content: "\a068";
+}
+.system-icon-dvc-dtl-current-value:before {
+  content: "\a069";
+}
+.system-icon-dvc-dtl-sample-time:before {
+  content: "\a067";
+}
+.system-icon-dvc-dtl-history-data:before {
+  content: "\a070";
+}
+
+
+.system-icon-dvc-status-normal:before {
+  content: "\a077";
+}
+.system-icon-dvc-status-warning:before {
+  content: "\a078";
+}
+
+.system-icon-dvc-olstatus-on:before {
+  content: "\a076";
+}
+.system-icon-dvc-olstatus-off:before {
+  content: "\a074";
+}
+
+.system-icon-dvc-mgstatus-start:before {
+  content: "\a075";
+}
+.system-icon-dvc-mgstatus-stop:before {
+  content: "\a080";
+}
+
+.system-icon-wn-page-all:before {
+  content: "\a064";
+}
+.system-icon-wn-page-new:before {
+  content: "\a065";
+}
+.system-icon-wn-page-processing:before {
+  content: "\a062";
+}
+.system-icon-wn-page-processed:before {
+  content: "\a066";
+}
+
+.system-icon-wn-exclam-mark:before {
+  content: "\a063";
+}
+
+.system-icon-new-message-bell:before {
+  content: "\a079";
+}
+
+.system-icon-wn-time-first:before {
+  content: "\a071";
+}
+.system-icon-wn-time-close:before {
+  content: "\a072";
+}
+.system-icon-wn-time-last:before {
+  content: "\a073";
+}
+

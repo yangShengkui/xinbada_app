@@ -1,0 +1,39 @@
+.proBar{
+	width:80%;
+	height:15px;
+	display: inline-block;
+}
+.tle{
+	font-size:16px;
+	color:#fff;
+	margin:10px 0;
+	background-color: #666;
+	border-radius:10px;
+	padding:0 5px;
+	display: inline-block;
+}
+.home_chart{
+  height: 200px;
+  margin: 0px;
+  padding: 0px;
+}
+.mui-progressbar-zh span {
+	background-color: #01BAFF;
+}
+.mui-progressbar-zn span {
+	background-color: #C396F2;
+}
+.mui-progressbar-sj span {
+	background-color: #2CFEF5;
+}
+.mui-progressbar-lx span {
+	background-color: #2CFEF5;
+}
+#configTab {
+	border: 1px solid #999999;
+	font-size: 12px;
+	width:100%;
+}
+#configTab td{
+	border: 1px solid #999999;
+}

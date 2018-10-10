@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link href="../css/mui.min.css" rel="stylesheet" />
+		<link href="../css/login/login.css" rel="stylesheet" />
+		<link href="../css/skin/skin.css" rel="stylesheet" />
+		<link id="skin-id-css" rel="stylesheet">
+	</head>
+
+	<body class="mui-fullscreen">
+		<div class="login-top-area main-bg-color" align="center">
+			<img src="../images/common/logo.png">
+			<span></span>
+		</div>
+
+		<div class="login-login-area">
+			<div class="login-login-input">
+				<label>账号</label>
+				<div class="login-login-input_wrapper">
+					<input id="login-id-username" type="text" value="">
+					<!--<input id="login-id-username" type="text" value="chuangxin">-->
+				</div>
+			</div>
+			<div class="login-login-input">
+				<label>密码</label>
+				<span><img id="toggleShowPassword" class="password-toggle-img" src="../images/login/login_password_no.png"></span>
+				<div class="login-login-input_wrapper">
+					<input id="login-id-password" type="password" value="">
+					<!--<input id="login-id-password" type="password" value="chuangxin123">-->
+				</div>
+			</div>
+			<div class="login-confirm-div">
+				<button type="button" id="login-id-commit" class="mui-btn mui-btn-block login-btn-confirm main-bg-color">登 录</button>
+			</div>
+			<div id="register-user">
+				<a href="javascript:void(0);">注册账号</a>
+			</div>
+			<div id="forgot-password">
+				<a href="javascript:void(0);">忘记密码?</a>
+			</div>
+		</div>
+		<script src="../js/mui.min.js"></script>
+		<script src="../js/mui.enterfocus.js"></script>
+		<script src="../js/common.js"></script>
+		<script src="../js/app.storage.js"></script>
+		<script src="../js/app.future.js"></script>
+		<script src="../js/app.dispatcher.js"></script>
+		<script src="../js/login/login.js"></script>
+		<script src="../js/skin/skin-impl.js"></script>
+	</body>
+
+</html>

@@ -1,0 +1,117 @@
+@font-face {
+  font-family: "appicon";
+  src: url('../fonts/appicon.otf') format('truetype');
+  /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+}
+
+.appicon {
+  font-family: "appicon" !important;
+  font-size: 20px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+}
+
+.app-icon-home:before {
+  content: "\a001";
+}
+
+.app-icon-user:before {
+  content: "\a002";
+}
+
+.app-icon-device-stroke:before {
+  content: "\a003";
+}
+
+.app-icon-warning-01:before {
+  content: "\a004";
+}
+
+.app-icon-order:before {
+  content: "\a005";
+}
+
+.app-icon-eye:before {
+  content: "\a006";
+}
+
+.app-icon-personal-stroke:before {
+  content: "\a007";
+}
+
+.app-icon-device-solid:before {
+  content: "\a008";
+}
+
+.app-icon-drawer:before {
+  content: "\a009";
+}
+
+.app-icon-personal-solid:before {
+  content: "\a010";
+}
+
+.app-icon-warning-02:before {
+  content: "\a011";
+}
+
+.app-icon-screen:before {
+  content: "\a012";
+}
+
+.app-icon-data:before {
+  content: "\a013";
+}
+
+.app-icon-menu:before {
+  content: "\a014";
+}
+
+.app-icon-refresh-01:before {
+  content: "\a015"
+}
+
+.app-icon-refresh-02:before {
+  content: "\a016"
+}
+
+.app-icon-refresh-03:before {
+  content: "\a017"
+}
+
+.app-icon-refresh-04:before {
+  content: "\a018"
+}
+
+.app-icon-refresh-05:before {
+  content: "\a019"
+}
+
+.app-icon-refresh-06:before {
+  content: "\a020"
+}
+
+.app-icon-refresh-07:before {
+  content: "\a021"
+}
+
+.app-icon-refresh-08:before {
+  content: "\a022"
+}
+
+.app-icon-refresh-09:before {
+  content: "\a023"
+}
+
+.app-icon-refresh-10:before {
+  content: "\a024"
+}
+
+.app-icon-loginoff-01:before {
+  content: "\a025"
+}
+
+.app-icon-loginoff-02:before {
+  content: "\a026"
+}

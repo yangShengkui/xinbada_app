@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <link href="../css/mui.min.css" rel="stylesheet" />
+    <link href="../css/appbase.css" rel="stylesheet" />
+    <link id="skin-id-css" rel="stylesheet">
+    <style>
+      .mui-pull-top-pocket {
+        top: 43px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="mui-content">
+      <!--<div class="main-bg-color" style="padding: 0px 10px;">
+        <div class="mui-input-row mui-search" style="height: 42px;">
+          <input id="deviceSearch" type="search" class="mui-input-clear deviceSearchClear" style="background-color: white; height: 32px;" placeholder="输入您想要查找的设备名称">
+        </div>
+      </div>-->
+    </div>
+
+    <script src="../js/mui.min.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="../js/app.future.js"></script>
+    <script src="../js/app.storage.js"></script>
+    <script src="../js/app.dispatcher.js"></script>
+    <script src="../js/skin/skin-impl.js"></script>
+    <!--<script src="../js/device/device.js"></script>-->
+    <script type="text/javascript">
+      mui.init({
+        subpages: [{
+          url: 'main-subpage-device-list.html',
+          id: 'main-subpage-device-list.html',
+          styles: {
+            //top: '43px',
+            bottom: '0px',
+          }
+        }]
+      });
+      
+      var __deivceListWebview = null;
+      function getDeivceListWebview() {
+        if (__deivceListWebview == null) {
+          __deivceListWebview = plus.webview.getWebviewById('main-subpage-device-list.html');
+          __deivceListWebview = plus.webview.getWebviewById('main-subpage-pump.html');
+        }
+        return __deivceListWebview;
+      }
+      
+     window.addEventListener('reloadViewInfo', function(event) {
+        mui.fire(getDeivceListWebview(), 'reloadViewInfo', event);
+        var targetProId = event.detail;
+        var detailPage = plus.webview.getWebviewById('main-subpage-device-list.html');
+        mui.fire(detailPage,'getProjectId',targetProId);
+        
+      });
+      	//重新加载数据
+  			window.addEventListener("reloadDevice",function (event) {
+  				var deviceListPage = plus.webview.getWebviewById("main-subpage-device-list.html");
+  					mui.fire(deviceListPage,"reloadDeviceList",{})
+   			})
+
+//    document.getElementById("deviceSearch").addEventListener("keydown", function(e) {
+//      if (13 === e.keyCode) { //点击了“搜索”  
+//        document.activeElement.blur(); //隐藏软键盘 
+//
+//        var name = document.getElementById('deviceSearch').value;
+//        if (name == undefined) {
+//          name = ''; 
+//        } else {
+//          name = name.replace(/(^\s*)|(\s*$)/g, ''); 
+//        }
+//        mui.fire(getDeivceListWebview(), 'deviceSearchEvent', {"deviceSearchKey": name});
+//      }
+//    }, false);
+
+      /*
+      var contentWebview = null;
+      document.querySelector('header').addEventListener('doubletap', function () {
+        if (contentWebview==null) {
+          contentWebview = plus.webview.currentWebview().children()[0];
+        }
+        contentWebview.evalJS("mui('#pullrefresh').pullRefresh().scrollTo(0, 0, 100)");
+      });
+      */
+    </script>
+  </body>
+
+</html>

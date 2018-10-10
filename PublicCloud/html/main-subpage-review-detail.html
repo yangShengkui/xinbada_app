@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <link href="../css/mui.min.css" rel="stylesheet" />
+    <link href="../css/appicon.css" rel="stylesheet" />
+    <!--<link href="../css/repair/repair-plan.css" rel="stylesheet" />-->
+    <link id="skin-id-css" rel="stylesheet">
+  </head>
+
+  <body>
+    <header class="mui-bar mui-bar-nav header-bg clear-shadow">
+      <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left header-nav-color"></a>
+      <!--这儿要获取到title的具体值-->
+      <h1 id="title" class="mui-title header-font-color">审核</h1>
+      <a class="mui-icon mui-icon-compose mui-pull-right" id="edit-suggest" href="message-feedback.html" style="color:#fff"></a>
+    </header>
+    <div id="pullrefresh" class="mui-content mui-scroll-wrapper mui-scroll-content">
+      <div class="mui-scroll">
+        <ul class="mui-table-view">
+          <li class="mui-table-view-cell">
+            设备名称：XXXXX
+          </li>
+          <li class="mui-table-view-cell">
+            设备编号：XXXXX
+          </li>
+          <li class="mui-table-view-cell">
+            异常现象： 风机垂直振动值严重超标
+          </li>
+          <li class="mui-table-view-cell">
+            工艺状况： 满载
+          </li>
+          <li class="mui-table-view-cell">
+            监测部位： 轴承座
+          </li>
+          <li class="mui-table-view-cell">
+            注意事项： 注意标准2016
+          </li>
+          <li class="mui-table-view-cell">
+            判断标准： 机械振动判定标准ZDB2001-2013
+          </li>
+          <li class="mui-table-view-cell">
+            判断依据： 风机轴向振动最大，且增长明显
+          </li>
+          <li class="mui-table-view-cell">
+            依据图片：
+          </li>
+          <li class="mui-table-view-cell">
+            综合状态等级：警告
+          </li>
+          <li class="mui-table-view-cell">
+            异常部位：风轮
+          </li>
+          <li class="mui-table-view-cell">
+            故障产生原因：线性缺陷
+          </li>
+          <li class="mui-table-view-cell">
+            综合判断结论：判断结论
+          </li>
+          <li class="mui-table-view-cell">
+            处理方案建议：方案建议
+          </li>
+          <li class="mui-table-view-cell">
+            附件
+            <a href="" style="color:#007aff">XXXXX.pdf</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <script src="../libs/echarts/dist/echarts.min.js"></script>
+    <script src="../js/mui.min.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="../js/app.future.js"></script>
+    <script src="../js/app.storage.js"></script>
+    <script src="../js/app.dispatcher.js"></script>
+    <script src="../js/skin/skin-impl.js"></script>
+    <script>
+      mui('.mui-scroll-wrapper').scroll({
+        deceleration: 0.0005 //flick 减速系数，系数越大，滚动速度越慢，滚动距离越小，默认值0.0006
+      });
+    </script>
+
+  </body>
+
+</html>

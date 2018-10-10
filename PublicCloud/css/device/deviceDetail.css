@@ -1,0 +1,251 @@
+html {
+  font-size: 20px;
+}
+
+#id-containter tr td {
+  font-size: 13px;
+}
+
+@media only screen and (min-width: 401px) {
+  html {
+    font-size: 25px !important;
+  }
+}
+
+@media only screen and (min-width: 428px) {
+  html {
+    font-size: 26.75px !important;
+  }
+}
+
+@media only screen and (min-width: 481px) {
+  html {
+    font-size: 30px !important;
+  }
+}
+
+@media only screen and (min-width: 569px) {
+  html {
+    font-size: 35px !important;
+  }
+}
+
+@media only screen and (min-width: 641px) {
+  html {
+    font-size: 40px !important;
+  }
+}
+
+body {
+}
+
+body * {
+  font-family: "微软雅黑";
+  color: #2b5266;
+}
+
+.his-name {
+  font-size: 0.8rem;
+  vertical-align: middle;
+}
+
+.mui-icon-circle {
+  font-size: 0.5rem;
+  vertical-align: middle;
+  font-weight: bold;
+}
+
+.mui-icon-circle span {
+  font-size: 0.7rem;
+  margin-left: 0.5rem;
+  vertical-align: middle;
+  font-weight: normal
+}
+
+.mui-card * {
+  background: #fff;
+}
+
+.mui-card {
+  border-radius: 0rem 0rem 0.3rem 0.3rem;
+}
+
+.mui-card-content {
+  padding: 0.25rem;
+  border-bottom: 1px solid #b5b5b5;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.mui-card-footer:before {
+  display: none;
+}
+
+.mui-table-view-cell:after {
+  display: none;
+}
+
+.mui-navigate-right:after,
+.mui-push-right:after {
+  display: none;
+}
+
+.btn-start {
+  background: transparent;
+  color: #59b6ff;
+  border-radius: 0.75rem;
+  border: 1px solid #59b6ff;
+  margin: 0px;
+  padding: 0rem 1rem;
+  font-size: 0.7rem;
+  height: 1.4rem;
+}
+
+.btn-grey {
+  background: #d7d7d7;
+  color: #fff;
+  border-radius: 0.75rem;
+  border: 0px solid #59b6ff;
+  margin: 0px;
+  padding: 0rem 1rem;
+  font-size: 0.7rem;
+  height: 1.4rem;
+}
+
+.btn-stop {
+  background: transparent;
+  color: #e24f43;
+  border-radius: 0.75rem;
+  border: 1px solid #e24f43;
+  margin: 0px;
+  padding: 0rem 1rem;
+  font-size: 0.7rem;
+  height: 1.4rem;
+}
+
+.mui-card-footer {
+  padding: 0;
+  margin: 0 0rem;
+}
+
+table>thead>tr>th {
+  color: #000;
+  background: transparent;
+  margin: 0;
+  padding: 0.5rem;
+  border-bottom: 1px solid #bebebe;
+  border-top: 1px solid #bebebe;
+}
+
+table>tbody>tr {
+  height: 40px;
+}
+
+table>tbody>tr>td {
+  color: #383838;
+  text-align: center;
+  padding: auto 4px;
+  border-bottom: 1px solid #bebebe;
+  
+  white-space: nowrap;
+  word-break: keep-all;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.state_online {
+  background: transparent;
+  border: 1px solid #5fc60d;
+  color: #5fc60d;
+  
+  border-radius: 3px;
+  height: 15px;
+  line-height: 15px;
+  padding: 0px 12px;
+  
+  font-size: 12px;
+}
+
+.state_outline {
+  background: transparent;
+  border: 1px solid #f1bd30;
+  color: #f1bd30;
+  
+  border-radius: 3px;
+  height: 15px;
+  line-height: 15px;
+  padding: 0px 12px;
+  
+  font-size: 12px;
+}
+
+.dvc-monitor-detail-head-icon {
+  font-size: 24px;
+}
+
+.dvc-monitor-detail-head-title {
+  color: black;
+  font-size: 14px;
+  margin-top: 5px;
+  font-weight: normal;
+}
+
+.dvc-detail-head {
+  height: 100px;
+  background-color: black;
+}
+
+.clear-shadow {
+  -webkit-box-shadow: 0 0px 0px #ccc;
+  box-shadow: 0 0px 0px #ccc;
+}
+
+.ddl-hor-layout-center-wrapper {
+  overflow: hidden;
+  background-color: transparent;
+}
+
+.ddl-hor-layout-center {
+  width: 100%;
+  float: right;
+  background-color: transparent;
+}
+
+.dvc-detail-head-icon {
+  font-size: 2.5rem; 
+  vertical-align: middle;
+  padding: 1rem;
+  color: white;
+}
+
+.dvc-detail-head-detail {
+  height: 100px;
+  vertical-align: middle;
+}
+
+.dvc-detail-head-title {
+  font-size: 1rem;
+  vertical-align: middle;
+  background-color: transparent;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.dvc-detail-head-info {
+  display:block;
+  padding: 10px 15px 0px 15px;
+}
+
+.dvc-detail-dvcinfo {
+  height: 1.4rem;
+  line-height: 1.4rem;
+  font-size: 15px;
+  color: black;
+}
+.order-btn {
+	margin-right: 5px;
+	
+}
+

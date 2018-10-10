@@ -1,0 +1,79 @@
+.mui-pull-right {
+	margin-right: 20px;
+}
+
+.message-font {
+	font-size: 15px;
+}
+
+.message-font-middle {
+	font-size: 14px;
+}
+
+.message-font-small {
+	font-size: 12px;
+}
+
+.mui-content>.mui-table-view:first-child {
+	margin-top: 0px;
+}
+
+.mui-table-view-cell>a:not(.mui-btn) {
+	margin: -15px -25px -15px -25px;
+}
+
+.message-head-txt-wrapper {
+	width: 35px;
+	height: 35px;
+	margin: 10px 5px;
+	border-radius: 50%;
+	background-color: orange;
+}
+
+.message-head-txt {
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	height: 35px;
+	line-height: 35px;
+}
+
+.message-content-layout-wrapper {
+	overflow: hidden;
+}
+
+.message-content-layout {
+	width: 100%;
+	height: 100%;
+	float: right;
+}
+
+.message-content-wrapper {
+	margin: auto 0px auto 2px;
+	width: 100%;
+	text-align: left;
+	color: gray;
+}
+
+.message-status {
+	padding: 1px 10px;
+	border: 1px solid gray;
+	border-radius: 100px;
+}
+
+.message-content-title-wrapper {
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+
+#list {
+	padding: 0;
+	margin: 0px 5px;
+}
+
+.left-msg {
+	width: 65%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}

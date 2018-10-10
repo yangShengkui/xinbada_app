@@ -1,0 +1,30 @@
+html {
+  font-size: 20px;
+}
+body {
+  background: #f5f5f5;
+  font-size: 0.6rem;
+}
+
+.mui-bar~.mui-content .mui-fullscreen {
+  top: 44px;
+  height: auto;
+}
+
+.mui-segmented-control.mui-segmented-control-inverted .mui-scroll >li
+{
+  color: darkgray;
+}
+
+.mui-slider-indicator .warning-page-head-icon
+{
+  font-size: 26px;
+  border: 0px solid #ddd;
+  margin-top: 8px;
+}
+
+.warning-page-head-title
+{
+  height: 20px;
+  line-height: 20px;
+}

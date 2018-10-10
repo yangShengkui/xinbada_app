@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+    <title></title>
+    <link href="../css/mui.min.css" rel="stylesheet">
+    <link href="../css/appicon.css" rel="stylesheet"/>
+    <link href="../css/systemicon.css" rel="stylesheet"/>
+    <link href="../css/appbase.css" rel="stylesheet">
+    <link href="../css/quota/quota.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/quota/mui.picker.min.css" />
+    <link id="skin-id-css" rel="stylesheet">
+  </head>
+  <body>
+ <div id="pullrefresh" class="mui-content mui-scroll-wrapper mui-scroll-content">
+      <div class="mui-scroll">
+      	<div class="top-tab">报警数量</div>
+      	<div class="top-tab">诊断及时率</div>
+      	<div class="top-tab">诊断准确率</div>
+      	<div class="top-tab">状态检修数</div>
+      	<ul class="day-choose">
+      		<li class="mui-active">当天</li>
+      		<li>本周</li>
+      		<li>本月</li>
+      		<li>近三个月</li>
+      	</ul>
+      	<div class="chg-time"> 
+      		<button id='data-picker' data-options='{"type":"date","beginYear":2017,"endYear":2020}' class="btn">开始</button>
+      	<div id='result' class="ui-alert">2017-10-20</div>
+      	</div>
+      	<div class="chg-time"> 
+      		<button id='data-picker' data-options='{"type":"date","beginYear":2017,"endYear":2020}' class="btn">结束</button>
+      	<div id='result' class="ui-alert">2017-10-20</div>
+      	</div>
+      	<ul class="other-choose">
+      		<li>基地</li>
+      		<li>厂区</li>
+      		<li>产线</li>
+      	</ul>
+      	<button type="button" class="srch mui-btn mui-btn-primary">查询</button>
+      	<div class="history-data">
+      		<div><b>—————————</b><span>最近查看</span><b>————————</b></div>
+      		<ul class="mui-table-view">
+      			<li class="mui-table-view-cell">报警数量  宝山基地\热轧厂\1580产线</li>
+      			<li class="mui-table-view-cell">状态检修占比  宝山基地\热轧厂\2050产线</li>
+      			<li class="mui-table-view-cell">报警数量  东山基地\热轧厂</li>
+      		</ul>
+      	</div>
+      </div>
+    </div>
+    <script src="../js/mui.js"></script>
+    <script src="../js/webviewGroup.js"></script>
+    <script src="../js/mui.pullToRefresh.js"></script>
+    <script src="../js/mui.pullToRefresh.material.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="../js/app.future.js"></script>
+    <script src="../js/app.storage.js"></script>
+    <script src="../js/app.dispatcher.js"></script>
+    <script src="../js/quota/mui.picker.min.js"></script>
+    <script src="../js/quota/quota.js"></script>
+    <script src="../js/skin/skin-impl.js"></script>
+  </body>
+</html>

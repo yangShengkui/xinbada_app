@@ -1,0 +1,38 @@
+
+.mui-table thead tr{
+	font-family: "微软雅黑";
+	font-size: 14px;
+}
+.charts {
+  height: 250px;
+  margin: 0px;
+  padding: 0px;
+}
+.data-list{
+	max-height:300px;
+	overflow:scroll;
+}
+
+table>thead>tr>th {
+  color: #000;
+  background: #ececec;
+  margin: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 25px;
+  border-bottom: 1px solid #bebebe;
+  border-top: 1px solid #bebebe;
+  font-weight: 0.55rem !important;
+}
+
+table>tbody>tr>td {
+  color: #383838;
+  text-align: center;
+  padding-left: 25px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-bottom: 1px solid #bebebe;
+  font-weight: 0.45rem !important;
+  font-family: "微软雅黑";
+	font-size: 13px;
+}

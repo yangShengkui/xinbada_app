@@ -1,0 +1,163 @@
+body {
+  background-color: white;
+}
+
+.warning-content-layout {
+  background-color: white;
+  height: 250px;
+  width: 100%;
+  padding: 15px;
+}
+
+.warning-content {
+  font-size: 15px;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  border-bottom: 0.5px solid rgba(128, 138, 135, 0.4);
+}
+
+.warning-content-title-color {
+  color: #7e7e7e;
+}
+
+.warning-content-count {
+  font-size: 18px;
+  color: #fd665b;
+}
+
+.warning-content-center {
+  width: 210px;
+  height: 210px;
+  margin: auto;
+  background: url(../../images/home/warning_circle.png) no-repeat;
+  background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  display: flex;
+}
+
+.warning-content-center-line {
+  margin: auto;
+  height: 1px;
+  border-bottom: 0.5px solid rgba(128, 138, 135, 0.4);
+  width: 160px;
+}
+
+.warning-content-center-count {
+  font-size: 36px;
+  color: #fe8c82;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.warning-content-center-title {
+  font-size: 18px;
+  color: #7b8b98;
+}
+
+.dvcodr-content-layout {
+  background-color: white;
+  height: 100px;
+  width: 100%;
+  padding: 10px 0px;
+}
+
+.dvcodr-content {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+.dvcodr-content-title {
+  padding-left: 5px;
+  color: black;
+  font-size: 16px;
+  width: 80px;
+  height: 14px;
+  line-height: 14px;
+  border-left: 4px solid #32bde4;
+  margin: 0px auto 25px auto;
+}
+
+.dvcodr-content-count-value {
+  font-size: 26px;
+  color: #32bde4;
+}
+
+.dvcodr-content-count-label {
+  margin-top: 6px;
+  font-size: 13px;
+  color: #86929e;
+}
+
+.order-content-title {
+  border-left: 4px solid #7dc65a;
+}
+
+.order-content-count-value {
+  color: #7dc65a;
+}
+
+.order-content-count-label {
+  color: #9d9d9d;
+}
+
+
+
+.column3-layout-center {
+  width: 70px;
+}
+
+.column3-layout-center,
+.column3-layout-left,
+.column3-layout-right {
+  float: left;
+  height: 100%;
+}
+
+.column3-layout-left,
+.column3-layout-right {
+  width: 50%;
+  margin-left: -35px;
+}
+
+.column3-layout-inner {
+  font-size: 15px;
+  text-align: center;
+  color: #646464;
+  
+  
+  height: 100%;
+}
+
+.column3-layout-left .column3-layout-inner,
+.column3-layout-right .column3-layout-inner {
+  margin-left: 35px;
+  height: 100%;
+  
+  font-size: 12px;
+}
+
+.column3-layout-left .column3-layout-inner {
+  text-align: right;
+}
+
+.column3-layout-right .column3-layout-inner {
+  text-align: left;
+}
+
+.customer-satisfaction-ratio-container {
+  height: 25%; 
+  width: 100%; 
+  color: white;
+}
+
+.customer-satisfaction-label {
+  height: 25%; 
+  width: 100%; 
+  color: #969696;
+}
+
+.customer-satisfaction-ratio {
+  height: 100%; 
+}  

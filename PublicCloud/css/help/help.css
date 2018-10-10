@@ -1,0 +1,11 @@
+.mui-content > .mui-table-view:first-child {
+  margin-top: 0px;
+}
+
+.mui-table-view-cell {
+  font-size: 14px;
+}
+
+#fb-help .mui-table-view-cell {
+  padding-left: 22px;  
+}

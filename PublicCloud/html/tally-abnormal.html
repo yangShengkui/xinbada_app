@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link href="../css/mui.min.css" rel="stylesheet" />
+		<link href="../css/appicon.css" rel="stylesheet" />
+		<link id="skin-id-css" rel="stylesheet">
+		<style>.detail {
+	border: 1px solid #e0e0e0;
+	margin-top: 5px;
+	padding: 5px;
+}
+
+.rich-content {
+	color: #778E9F;
+	font-size: 14px;
+	margin: 5px;
+}
+
+ul {
+	padding: 0;
+	margin: 5px;
+}
+
+li {
+	list-style: none;
+}
+
+
+/*圆形图标*/
+
+.circle {
+	display: inline-block;
+	height: 15px;
+	width: 15px;
+	border-radius: 50%;
+	margin-right: 5px;
+}
+
+.p-mark {
+	font-size: 12px;
+	color: #fff;
+	margin: 10px 0;
+	background-color: #666;
+	border-radius: 10px;
+	padding: 2px 5px;
+}
+.warning-message {
+	width:78%;	
+	font-size: 0.8rem;
+	color: #828282;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	display:inline-block;
+	vertical-align: middle;
+}
+.warning-msg {
+	width: 78%;
+	color: #000;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	display: inline-block;
+	vertical-align: middle;
+	padding: 5px 0;
+}</style>
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav header-bg clear-shadow">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left header-nav-color"></a>
+			<!--这儿要获取到title的具体值-->
+			<h1 id="title" class="mui-title header-font-color">当日点检</h1>
+			<button id="subDoTask" class="mui-btn mui-pull-right header-font-color header-bg">提交</button>
+		</header>
+		<div id="pullrefresh" class="mui-content mui-scroll-wrapper mui-scroll-content">
+			<div class="mui-scroll">
+				<ul id="tally-detail">
+					<!--<li class="detail">
+						<div class="tit">
+							<span class="mui-badge mui-badge-primary">01</span>
+							<span style="font-weight: bold;vertical-align: middle;">电机黏着</span>
+						</div>
+						<div class="rich-content">
+							<div class="mui-row">
+								<div class="mui-col-xs-6">点检方法：五感</div>
+								<div class="mui-col-xs-6">项次判定：正常</div>
+								<div class="mui-col-xs-6">点检标准：清洗清理</div>
+							</div>
+						</div>
+					
+					</li>-->
+				</ul>
+			</div>
+		</div>
+
+		<script src="../js/mui.min.js"></script>
+		<script src="../js/common.js"></script>
+		<script src="../js/app.future.js"></script>
+		<script src="../js/app.storage.js"></script>
+		<script src="../js/app.dispatcher.js"></script>
+		<script src="../js/skin/skin-impl.js"></script>
+		<script src="../libs/moment/moment.js"></script>
+		<script src="../js/lines/tally-abnormal.js"></script>
+	</body>
+
+</html>

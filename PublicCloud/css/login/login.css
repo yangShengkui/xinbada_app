@@ -1,0 +1,113 @@
+body {
+  background-color: white;
+  background-size: cover;
+}
+
+.login-top-area {
+  text-align: center;
+  width: 8rem;
+  height: 8rem;
+  margin: 3rem auto 3rem auto;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.login-top-area img {
+  width: 85%;
+  height: 85%;
+  vertical-align: middle;
+}
+
+.login-top-area span {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.login-login-area {
+  margin-top: 70px;
+  margin-right: 50px;
+  margin-left: 50px;
+  background-color: transparent;
+}
+
+.login-login-input {
+  margin: 8px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #AFAFAF;
+  background-color: transparent;
+  text-align: center;
+  vertical-align: middle;
+  height: 45px;
+}
+
+.login-login-input label {
+  float: left;
+  display: inline-block;
+  width: 40px;
+  text-align: left;
+  height: 35px;
+  line-height: 35px;
+  vertical-align: middle;
+  background-color: transparent;
+  margin: auto 5px auto 0px;
+}
+
+.login-login-input_wrapper {
+  overflow: hidden;
+  margin: 0px;
+  height: 50px;
+}
+
+.login-login-input_wrapper input {
+  box-sizing: border-box;
+  border: 0px solid #dfdfdf;
+  width: 100%;
+  height: 35px;
+  padding: 0 5px;
+  vertical-align: middle;
+  margin: 0px;
+}
+
+.login-login-input span {
+  float: right;
+  margin-left: 5px;
+  vertical-align: middle;
+  width: 20px;
+  height: 35px;
+  line-height: 35px;
+  background-color: transparent;
+}
+
+.password-toggle-img {
+  width: 20px;
+}
+
+.login-confirm-div {
+  margin-top: 60px;
+}
+
+.login-btn-confirm {
+  color: #fff;
+  border: 0px;
+  border-radius: 5px;
+  padding: 0;
+  height: 40px;
+  font-size: 20px;
+}
+#forgot-password,#register-user{
+	display: inline-block;
+  margin-top: 100px;
+  text-align: center;
+}
+#register-user{
+	padding-left:28%;
+}
+#forgot-password a,#register-user a {
+  text-decoration: underline !important;
+  vertical-align: baseline;
+  cursor: pointer;
+  color: #337ab7;
+  font-size: medium;
+  padding: 0px auto;
+}

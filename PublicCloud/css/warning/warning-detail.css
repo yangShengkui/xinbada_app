@@ -1,0 +1,261 @@
+html {
+	font-size: 20px;
+}
+
+@media only screen and (min-width: 401px) {
+	html {
+		font-size: 25px !important;
+	}
+}
+
+@media only screen and (min-width: 428px) {
+	html {
+		font-size: 26.75px !important;
+	}
+}
+
+@media only screen and (min-width: 481px) {
+	html {
+		font-size: 30px !important;
+	}
+}
+
+@media only screen and (min-width: 569px) {
+	html {
+		font-size: 35px !important;
+	}
+}
+
+@media only screen and (min-width: 641px) {
+	html {
+		font-size: 40px !important;
+	}
+}
+
+body {
+	font-family: "微软雅黑";
+	background: #fff;
+}
+
+.state_outline {
+	background: #f1bd30;
+	color: #fff;
+	border-radius: 0.5rem;
+	padding: 0.03rem 0.4rem;
+	display: inline-block;
+	font-size: 0.5rem;
+	vertical-align: middle;
+	margin-left: 2px;
+}
+
+.state_inline {
+	background: #57cb0b;
+	color: #fff;
+	border-radius: 0.5rem;
+	padding: 0.03rem 0.4rem;
+	display: inline-block;
+	font-size: 0.5rem;
+	vertical-align: middle;
+	margin-left: 2px;
+}
+
+.device-detail {
+	margin-top: -2px;
+}
+
+.device-detail-info {
+	font-size: 0.6rem;
+	vertical-align: middle;
+	margin: 0;
+}
+
+.device-img {
+	height: 4.0rem !important;
+	margin-top: 4px;
+}
+
+li.mui-table-view-cell {
+	border-bottom: 1px solid #c8c8c8;
+	border-top: none !important;
+	padding: 0.46rem 0.75rem;
+}
+
+li.mui-table-view-cell:after {
+	display: none;
+}
+
+.label-title {
+	margin-left: 5px;
+	vertical-align: middle;
+}
+
+.dvc-hor-layout {
+	background-color: transparent;
+	vertical-align: middle;
+}
+
+.dvc-hor-layout-left {
+	float: left;
+	text-align: center;
+	vertical-align: middle;
+	margin-right: 5px;
+	background-color: transparent;
+}
+
+.dvc-hor-layout-right {
+	float: right;
+	text-align: center;
+	vertical-align: middle;
+	margin-left: 5px;
+	background-color: transparent;
+}
+
+.dvc-hor-layout-center-wrapper {
+	overflow: hidden;
+	background-color: transparent;
+	padding-left: 5px;
+}
+
+.dvc-hor-layout-center {
+	width: 100%;
+	float: right;
+	margin-top: 2px;
+}
+
+.dvc-status-icon {
+	font-size: 0.58rem;
+}
+
+.mui-badge-default {
+	color: #fff;
+	background-color: #aaaaaa;
+}
+
+.mui-badge-default.mui-badge-inverted {
+	color: #aaaaaa;
+	background-color: transparent;
+}
+
+
+/*圆形图标*/
+
+.circle {
+	display: inline-block;
+	height: 15px;
+	width: 15px;
+	border-radius: 50%;
+	margin-right: 5px;
+}
+
+.mui-table-view-chevron .mui-table-view-cell {
+	padding-right: 40px;
+}
+
+.select_box div {
+	display: inline-block;
+	width: 32%;
+	background-color: #FFFFFF;
+}
+
+.select_box div select {
+	width: 77%;
+	margin: 0;
+}
+
+#pullrefresh .mui-scroll .select_box span {
+	/*position: absolute;*/
+	float: right;
+	margin-top: 8px;
+}
+
+.p-mark {
+	font-size: 12px;
+	color: #fff;
+	margin: 10px 0;
+	background-color: #666;
+	border-radius: 10px;
+	padding: 2px 5px;
+}
+
+.iconLC {
+	color: #fff;
+	background: #0099FF;
+	border-radius: 50%;
+	padding: 5px;
+}
+
+.proLine {
+	width: 5px;
+	height: 50px;
+	background-color: #797671;
+	margin-left: 15px;
+}
+
+.selCode {
+	font-size: 16px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.inner-content {
+	padding: 0 10px;
+}
+
+.chart-sel {
+	position: relative;
+}
+
+.selCode {
+	/*background-color: #398EBD;*/
+	color: #fff;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	text-align: left;
+	font-size: 12px;
+	padding: 0;
+}
+
+.footer-style {
+	width: 100%;
+	border: 1px solid #E4E4E4;
+	height: 60px;
+	background-color: #fff;
+	/*margin-top: 20px;*/
+	padding-top: 10px;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	z-index: 1000
+}
+
+.footer-style button {
+	margin-right: 10px;
+}
+
+.mui-icon-arrowdown {
+	/*background-color: #398EBD;*/
+	color: #fff;
+	position: absolute;
+	font-size: 20px;
+	top: 32px;
+	right: 14px
+}
+
+.trnd {
+	width: 20%;
+	margin-left: 10px;
+}
+
+.selSty {
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.warning-msg-detail {
+	width:100%;	
+	color: #000;
+	font-size:0.7rem;
+	display:inline-block;
+	vertical-align: middle;
+	padding:5px 0;
+}

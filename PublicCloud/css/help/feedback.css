@@ -1,0 +1,34 @@
+.feedback-content{
+	margin: 15px;
+	height: 200px;
+}
+
+.feedback-content textarea {
+	width: 100%;
+	height: 100%;
+	vertical-align: top;
+	padding: 10px 15px;
+	border: 0px;
+	border-radius: 5px;
+	font-family: "微软雅黑";
+	font-size: 14px;
+}
+
+.feedback-content input {
+	vertical-align: top;
+	margin-top: 0px;
+	padding: 10px 15px;
+	border: 0px;
+	border-radius: 5px;
+	font-family: "微软雅黑";
+	font-size: 14px;
+}
+
+.feedback-content button{
+	margin-top: 30px;
+}
+
+#id-commit-btn {
+  height: 40px;
+  padding: 0px;
+}

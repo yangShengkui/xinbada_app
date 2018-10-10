@@ -1,0 +1,50 @@
+.hor-layout {
+  font-size: 13px;
+  background-color: transparent;
+}
+
+.hor-layout-left {
+  float: left;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  margin-right: 5px;
+  background-color: transparent;
+}
+
+.hor-layout-right {
+  float: right;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  margin-left: 5px;
+  background-color: transparent;
+}
+
+.hor-layout-center-wrapper {
+  overflow: hidden;
+  background-color: transparent;
+  height: 25px;
+}
+
+.hor-layout-center {
+  width: 100%;
+  float: right;
+  line-height: 25px;
+}
+
+.text-wrap-dot {
+  white-space: nowrap;
+  word-break: keep-all;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.clear-background {
+  background-color: transparent;
+}
+
+.clear-shadow {
+  -webkit-box-shadow: 0 0px 0px #ccc;
+  box-shadow: 0 0px 0px #ccc;
+}
